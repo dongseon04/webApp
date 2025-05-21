@@ -12,27 +12,7 @@
 5. 프로그램 실행
 `python app.py`
 - 브라우저에서 http://127.0.0.1:5000로 접속하여 이름과 전화번호를 입력하고 저장할 수 있습니다.
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Address Book</title>
-    <!--CSS 파일 연결-->
-    <link rel="stylesheet" href="/static/css/style.css">
-</head>
-<body>
-  <h1>Address Book</h1>
-  <form action="/add" method="post">
-      <label for="name" class="label-name">Name:</label>
-      <input type="text" id="name" name="pyname" required>
-      <br><br>
-      <label for="phone">Phone:</label>
-      <input type="text" id="phone" name="pyphone" required>
-      <br><br>
-      <button type="submit">Add Contact</button>
-  </form>
-</body>
-</html>
-
+6. style.css
+![image](https://github.com/user-attachments/assets/6ef224bf-3641-4c61-9013-f508048e391f)
+![image](https://github.com/user-attachments/assets/28d51ec3-89fd-409d-bdbb-6bc6e5b6de4f)
 
