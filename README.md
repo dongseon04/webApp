@@ -1,5 +1,5 @@
 # webApp
-1. 새 폴더 만들고 터미널에 가상환경 만들기 /n
+1. 새 폴더 만들고 터미널에 가상환경 만들기
 `conda create -n webApp python=3.9`
 ![image](https://github.com/user-attachments/assets/35bafce9-6776-4519-a622-4a2a824773ae)
 2. flask 프레임워크 설치
@@ -12,6 +12,27 @@
 5. 프로그램 실행
 `python app.py`
 - 브라우저에서 http://127.0.0.1:5000로 접속하여 이름과 전화번호를 입력하고 저장할 수 있습니다.
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Book</title>
+    <!--CSS 파일 연결-->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <h1>Address Book</h1>
+  <form action="/add" method="post">
+      <label for="name" class="label-name">Name:</label>
+      <input type="text" id="name" name="pyname" required>
+      <br><br>
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="pyphone" required>
+      <br><br>
+      <button type="submit">Add Contact</button>
+  </form>
+</body>
+</html>
 
 
