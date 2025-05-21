@@ -4,6 +4,7 @@
 `conda create -n webApp python=3.9`
 
 ![image](https://github.com/user-attachments/assets/35bafce9-6776-4519-a622-4a2a824773ae)
+
 3. flask 프레임워크 설치
 
 `pip install flask ` 
